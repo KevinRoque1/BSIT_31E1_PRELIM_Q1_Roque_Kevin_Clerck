@@ -1,5 +1,4 @@
-namespace TransportChallenge;
-
-public interface ITransport
+﻿namespace TransportChallenge
 {
+    public interface ITransport { }
 }

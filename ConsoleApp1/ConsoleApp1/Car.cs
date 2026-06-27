@@ -1,5 +1,9 @@
-namespace TransportChallenge;
+using TransportChallenge;
 
-public class Car
+namespace TransportChallenge
 {
+    public class Car : Vehicle, IDriveable
+    {
+        public override string Move() => "Driving on the road.";
+    }
 }

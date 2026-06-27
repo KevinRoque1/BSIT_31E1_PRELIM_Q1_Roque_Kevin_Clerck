@@ -1,5 +1,4 @@
-namespace TransportChallenge;
-
-public interface IFlyable
+namespace TransportChallenge
 {
+    public interface IFlyable { }
 }
