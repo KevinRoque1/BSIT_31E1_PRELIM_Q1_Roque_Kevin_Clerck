@@ -82,3 +82,5 @@ var helicopter = TransportResolver.Resolve("helicopter");
 Assert(helicopter is IFlyable, "");
 Assert(helicopter is IDriveable, "");
 Assert(helicopter!.Move() == "Flying in the sky.", "");
+
+//
