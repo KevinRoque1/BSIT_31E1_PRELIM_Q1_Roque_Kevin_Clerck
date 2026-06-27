@@ -44,7 +44,7 @@ var boat = TransportResolver.Resolve("boat");
 
 Assert(boat is Boat, "Resolver creates Boat.");
 Assert(boat is Vehicle, "Boat inherits Vehicle.");
-Assert(boat is ITransport, "Boat implements ISailable.");
+Assert(boat is ISailable, "Boat implements ISailable.");
 Assert(boat!.Move() == "Sailing on the water.", "Boat can move.");
 
 // ---------- POLYMORPHISM ----------
