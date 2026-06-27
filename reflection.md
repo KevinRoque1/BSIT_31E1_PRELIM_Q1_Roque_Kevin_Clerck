@@ -9,7 +9,8 @@ Could Helicopter inherit from both Vehicle and Airplane? Why or why not?
   
 Why can Helicopter implement both IFlyable and IDriveable?
 
-interface support multiple inheritance so yes since they are both interface i can implement it.
+- interface support multiple inheritance so yes since they are both interface i can implement it.
+
 If a Submarine can both sail and dive, how would you design it?
 
 - i would create Submarine cs as a class and i would create an interface for both dive and sail. and I would put both dive and sail in submarine class.
